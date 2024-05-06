@@ -27,10 +27,10 @@
     display: flex;
     gap: 10px;
     margin-bottom: 50px;
-    height: 35px;
+    
 }
 .hero-btns .btn img{
-    width: 15px;
+    width: 25px;
 }
 .hero-btns .btn{
     border: 0;
@@ -45,10 +45,13 @@
     border-radius: 4px;
     cursor: pointer;
 }
-.hero-btns .btn-dark-btn{
+.hero-btns .btn.dark-btn{
     color: white;
     background: #6d6d6eb3;
 }
-.hero-btns .btn-dark-btn img{
-    width: 35px;
+.hero-btns .btn:hover{
+    background:#ffffffbf;
+}
+.hero-btns .btn.dark-btn:hover{
+    background:#6d6d6e66;
 }
